@@ -22,7 +22,7 @@ col1, col2 = st.columns(2,gap="small")
 with col1:
     st.subheader('LittleLemon API')
     st.image('assets/Menu list endpoint.PNG')
-    st.markdown("[Click here to view the github repo]()")
+    st.markdown("[Click here to view the github repo](https://github.com/Ugochukwulumanze/LittleLemon.)")
     
 with col2:
     st.subheader("Description")
@@ -36,11 +36,11 @@ col1, col2 = st.columns(2,gap="small")
 with col1:
     st.subheader('Keepclean')
     st.image('assets/homepage.PNG')
-    st.markdown("[Click here to view the github repo](https://www.google.com)")
+    st.markdown("[Click here to view the github repo](https://github.com/Ugochukwulumanze/Keep-Clean)")
     
 with col2:
     st.subheader("Description")
     st.write("""I developed a full-stack web application that enables customers to easily request waste disposal and cleaning services. 
-             The frontend was built using HTML, Tailwind CSS, and JavaScript, while the backend was powered by Django and a MySQL database to manage customer details and subscriptions. 
+             The frontend was built using HTML, and CSS, while the backend was powered by Django and a SQLite database to manage customer details and subscriptions. 
              This platform allows customers to subscribe to waste services, ensuring prompt and efficient disposal.""")
-    st.write('Tools Used: HTML, TailwindCSS, JavaScript, MySQL, Python, Django, Google and Facebook auth, AWS EC2')
+    st.write('Tools Used: HTML, CSS, SQLite, Python, Django, Google and Facebook auth, AWS EC2')

@@ -53,6 +53,7 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 st.header('WORK EXPERIENCE',anchor=False)
 st.subheader('Python Backend Engineer-NIIT',anchor=False)
+st.write('September 2021 - Present')
 st.write(
     """
     - Developed and maintained backend systems using Python and Django, improving performance by 30%
